@@ -221,3 +221,101 @@ section {
   cursor: pointer;
   
 }
+
+
+/* our mobile responsive design here */
+
+/* here is for tablet design */
+
+@media screen and (max-width:1028px){
+
+  .palmpay_logo {
+    width: 80px;
+    height: 40px;
+  }
+  
+  .download_app{
+    padding: 40px 0 0;
+
+  }
+
+}
+
+/* here is for mobile phone design */
+
+@media (min-width:390px) and (max-width:909px){
+  header ul {
+    justify-content: space-between;
+    width: 90%;
+  }
+
+  ul li a {
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  .download_app {
+    width: 20%;
+    /* margin: 0 auto; */
+    padding: 30px 0 0;
+    height: 50rem;
+    background-color: rgb(223, 205, 243);
+  }
+
+  .download_app div:first-child {
+    width: 10%;
+    font-size: 5px;
+    padding: 60px;
+  }
+
+  .download_app div:first-child h2 {
+    font-size: 20px;
+    color: #48048f;
+    font-weight: 200;
+  
+  }
+
+  .download_app div:first-child p {
+    line-height: 30px;
+    font-weight: 400;
+    font-size: 12px;
+  }
+  
+  .regulation {
+    padding: 40px 50px;
+  }
+  
+  .regulation ._item {
+    width: 50%;
+    max-width: 124px;
+    margin-right: 30px;
+  }
+
+  .regulation div span {
+    line-height: 15px;
+    font-size: 10px;
+    font-weight: bold;
+  }
+  
+  .download_app div:first-child button {
+    color: #fff;
+    background-color: rgb(99, 5, 177);
+    line-height: 24px;
+    font-weight: 500;
+    font-size: 15px;
+    border-radius: 38px;
+    padding: 0 12px;
+  }
+
+  section{
+    width: 700px;
+    align-items: center;
+    margin-left: 40px;
+  }
+
+  .features_app{
+    width: 500px;
+    margin-left: 0px;
+    align-items: center;
+  }
+}
